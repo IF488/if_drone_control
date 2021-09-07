@@ -23,6 +23,16 @@ rosservice call /enable_motors "enable: true"
 
 ## Partie 2: Régulation en altitude
 Cette partie à pour but de crée un service qui modifiera l'altitude du drone.  
+Cloner le package dans le fichier src de votre catkin workspace:  
+
+```
+cd catkin_ws/src
+git clone https://github.com/IF488/if_drone_control.git
+catkin_make
+cd ..
+source devel/setup.bash
+```
+
 Dans un premier terminal, éxecuter le noeud:  
 
 ```
